@@ -1,0 +1,37 @@
+header
+	width: 100%
+	background: url('../img/bg.jpg') #281a0c
+	background-size: cover //Queremos que cubra todo el espacio del contenedor
+	background-attachment: fixed //Queremos que se quede quieta la imagen al hacer Scrol
+	background-position: center 0
+	.contenedor
+		position: relative //Le damos una posicion relativa para poder mover los elementos despues
+		height: 700px //Le damos la altura para que se pueda ver la imagen de fondo
+		.menu
+			width: 100% //Que abarque todo el contenedor a lo ancho
+			text-align: right //Alineamos el menu a la derecha
+			a
+				color: #fff
+				font-size: 20px
+				font-weight: 300
+				display: inline-block //Para que se coloquen unos al lado de los otros
+				margin: 40px 20px
+				text-decoration: none //Se lo quitamos para luego darselo con (hover)
+				position: relative
+				&:hover //Le damos la decoracion la texto
+					text-decoration: underline
+		.textos
+			width: 100%
+			color: #fff
+			position: absolute //Para poder hacer el efecto del Scroll y se mueva separado
+			top: 50% //Lo alinea verticalmente
+			margin-top: -52px
+			.nombre
+				font-size: 50px
+				font-weight: 600
+				span
+					font-weight: 300
+			h3
+				font-weight: 300
+				font-size: 25px
+				font-style: italic 

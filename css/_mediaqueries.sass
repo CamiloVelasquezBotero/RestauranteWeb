@@ -1,0 +1,61 @@
+@media screen and (max-width: 800px)
+	header
+		.contenedor
+			position: static //La posicion estatica le indica que no se puede mover
+			height: auto
+			.textos
+				position: static
+				margin: 100px 0
+				.nombre
+					font-size: 30px
+				h3
+					font-size: 18px
+			.menu
+				text-align: center
+				a
+					margin: 10px 20px
+	.main
+		.acerca-de
+			.contenedor
+				.foto
+					width: 100%
+					position: relative
+				article
+					position: relative
+					width: 100%
+					top: -50px
+					transform: translate(0px, 0) //Codigo para manipularlo con Jquery
+		.menu
+			padding-top: 300px
+			.contenedor
+				article
+					width: 100%
+		.galeria
+			.foto
+				width: 50%
+		.mapa
+			width: 80%
+			margin: auto
+@media screen and (max-width: 400px)
+	.main
+		.acerca-de
+			.contenedor
+				article	
+					h3
+						font-size: 34px
+						margin-bottom: 10px
+		.menu
+			.contenedor
+				article
+					.platillo
+						.nombre,
+						.precio
+							font-size: 16px
+							line-height: 16px
+		.ubicacion
+			.direccion
+				margin-bottom: 15px
+			.direccion,
+			.horarios
+				width: 100%
+				text-align: center
