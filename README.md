@@ -2,4 +2,4 @@
 
 Pagina hecha para un restaurante, con efectos hechos en JQuery.
 
-Preview: https://paginarestauranteweb.netlify.app/
+Preview: https://restaurante-web-five.vercel.app/
